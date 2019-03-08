@@ -61,9 +61,9 @@ const mongoose = require('mongoose');
 //'mongodb://username:password@ds257981.mlab.com:57981/simple-chat'
 const dbUrl = 'mongodb://admin:password1@ds163255.mlab.com:63255/chat-app-comp3133'
 
-mongoose.connect(dbUrl, (err) => {
+/*mongoose.connect(dbUrl, (err) => {
   console.log('mongodb connected', err);
-})//
+})//*/
 
 mongoose.connect('mongodb://admin:password1@ds163255.mlab.com:63255/chat-app-comp3133', { useNewUrlParser: true })
   .then(() => {
